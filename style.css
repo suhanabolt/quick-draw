@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+body{
+    font-family: 'Lobster';
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}
+h1
+{
+color: #000000;
+}
+.btn1
+{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); 
+}
+#your_sketch
+{
+font-weight: bolder;
+color: aqua;
+}
+#confidence
+{
+font-weight: bolder;
+color: rgb(120, 240, 240);
+}
+#show_sketch
+{
+float:right;
+margin-right:10px;
+margin-top: 7px;
+}
+p{
+padding-top:10px;
+font-size:25px;
+}
+canvas
+{
+border:5px soild white;
+border-radius:20px;
+animation-name:shadow;
+animation-duration:3s;
+animation-iteration-count:infinite;
+margin-top: 90px;
+}
+@keyframes shadow 
+{
+from{box-shadow:20px 20px 100px rgb(250, 250, 250); }
+to{box-shadow:20px 20px 100px rgb(241, 232, 232); }
+}
+#score
+{
+float:left;
+font-size:25px;
+margin-left:5px;
+}
+#timer
+{
+    float:right;
+    font-size:25px;
+    margin-right:50px;
+    }
